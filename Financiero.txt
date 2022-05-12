@@ -1,0 +1,24 @@
+drop database if exists financiero;
+
+create database financiero;
+
+create table Loan(
+	idLoan int primary key not null,
+    user1 varchar(15) not null,
+    activity boolean not null,
+	idBook int not null,
+    idEmployee int not null,
+    foreign key (idBook) references Book(idBook),
+	foreign key (idEmployee) references Employee(idEmployee)
+);
+
+create table Employee(
+	idEmployee int primary key not null, 
+	nameEmployee varchar(25) not null
+);
+
+create table Book(
+	idBook int primary key not null,
+    nameBook varchar(25) not null
+	
+);
