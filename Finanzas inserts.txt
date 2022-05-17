@@ -1,3 +1,57 @@
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(1,1,2500,0,0)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(2,0,0,0,0)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(3,1,5000,1,2500)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(4,0,0,0,0)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(5,1,3000,0,0)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(6,0,0,0,0)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(11,1,5500,1,2500)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(12,1,2500,0,0)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(13,0,0,0,0)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(14,1,2500,1,2500)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(15,0,0,0,0)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(16,1,4000,1,5000)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(21,1,7500,0,0)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(22,0,0,0,0)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(23,1,5500,1,2500)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(24,1,500,0,0)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(25,0,0,0,0)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(26,1,2500,0,0)
+
 insert into dbo.Loan(idLoan,idUser,activity,description) 
 values (1,1,1,'Hizo el prestamo de Blanca Nieves')
 
@@ -15,6 +69,8 @@ values (5,5,1,'Hizo el prestamo de Harry Potter')
 
 insert into dbo.Loan(idLoan,idUser,activity,description) 
 values (6,6,1,'Hizo el prestamo de Don Quijote')
+
+
 
 insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueDate,idUser)
 values(1,'Federico Fernando Artavia','1236 5495 3256 5472',1234,'01/05/2023',1)
