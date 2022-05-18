@@ -86,10 +86,10 @@ insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueD
 values(4,'Lucy Layla Rosales','1569 2147 3698 2546',4219,'10/01/2023',4)
 --help 
 insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueDate,idUser)
-values(5,'Natsu Haru Dragoignnel','7853 1584 3598 1234',1598,'29/03/2023',5)
+values(5,'Natsu Haru Dragoignnel','7853 1584 3598 1234',1598,'10/01/2023',5)
 
 insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueDate,idUser)
-values(6,'Wendy Aria Matto','8462 4956 7951 9686',1679,'30/12/2023',6)
+values(6,'Wendy Aria Matto','8462 4956 7951 9686',1679,'01/01/2025',6)
 
 insert into dbo.Loan(idLoan,idUser,activity,description) 
 values (11,11,1,'Hizo el prestamo de La Bella Durmiente')
@@ -116,10 +116,10 @@ insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueD
 values(12,'Rosa Elena Arias','7856 3698 3265 1569',1563,'08/08/2023',12)
 
 insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueDate,idUser)
-values(13,'Stella Rosalia LeonHeart','1236 9865 3268 2145',2658,'28/11/2023',13)
+values(13,'Stella Rosalia LeonHeart','1236 9865 3268 2145',2658,'03/20/2026',13)
 
 insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueDate,idUser)
-values(14,'Layla Lia Cuarzo','5639 4536 9654 3645',2569,'20/02/2023',14)
+values(14,'Layla Lia Cuarzo','5639 4536 9654 3645',2569,'10/10/2025',14)
 
 insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueDate,idUser)
 values(15,'Haruki Tobi Uenoyama','5648 6325 7856 2145',7852,'07/07/2023',15)
@@ -131,7 +131,7 @@ insert into dbo.Loan(idLoan,idUser,activity,description)
 values (21,21,1,'Hizo el prestamo de Rapunsel')
 
 insert into dbo.Loan(idLoan,idUser,activity,description) 
-values (22,22,1,'Realizo el prestamo de Alicia en el pais de las maaravillas')
+values (22,22,1,'Realizo el prestamo para Alicia')
 
 insert into dbo.Loan(idLoan,idUser,activity,description) 
 values (23,23,1,'Hizo el prestamo de Softer')
@@ -146,16 +146,16 @@ insert into dbo.Loan(idLoan,idUser,activity,description)
 values (26,26,1,'Hizo el prestamo de Triton')
 
 insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueDate,idUser)
-values(21,'Rupert Adrian Gonzales','2698 3971 2648 3698',6482,'21/12/2023',21)
+values(21,'Rupert Adrian Gonzales','2698 3971 2648 3698',6482,'12/12/2023',21)
 
 insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueDate,idUser)
 values(22,'Juan Jose Arias','2569 8754 3698 1234',2648,'08/06/2023',22)
 
 insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueDate,idUser)
-values(23,'Marta Marcella Picado','2697 3596 1354 1648',1364,'28/02/2023',23)
+values(23,'Marta Marcella Picado','2697 3596 1354 1648',1364,'05/02/2023',23)
 
 insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueDate,idUser)
-values(24,'Steven Gabriel Fernandez Navarro','8529 3619 6168 1351',1698,'20/07/2023',24)
+values(24,'Steven Gabriel Fernandez Navarro','8529 3619 6168 1351',1698,'03/07/2023',24)
 
 insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueDate,idUser)
 values(25,'Alister Gabriel Navarro','1684 9865 2198 1684',2359,'07/12/2023',25)

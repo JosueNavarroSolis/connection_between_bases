@@ -1,3 +1,5 @@
+use Libros
+
 /*
 insert tipo empleado
 */
@@ -13,7 +15,7 @@ values ('Librero')
 
 insert into tipoEmpleados(nombreTipo)
 values ('Subgerente')
-select * from tipoEmpleados
+
 /*
 insert empleados
 */
@@ -61,13 +63,20 @@ values (3)
 /*
 insert prestamos
 */
-select * from Prestamos
 
 insert into Prestamos(idLibro, costo, fechaSolicitud, vencimiento, cancelado, idUsuario, idEmpleado)
-values (4, 5000, '2022-04-10', '2022-05-10', 0, 2016133423, 1)
+values (1, 5000, '2022-04-10', '2022-05-10', 0, 2016133423, 1)
 
 insert into Prestamos(idLibro, costo, fechaSolicitud, vencimiento, cancelado, idUsuario, idEmpleado)
-values (5, 4000, '2022-03-14', '2022-03-14', 0, 2018234443, 2)
+values (4, 4000, '2022-03-14', '2022-03-14', 0, 2018234443, 2)
 
 insert into Prestamos(idLibro, costo, fechaSolicitud, vencimiento, cancelado, idUsuario, idEmpleado)
-values (6, 3500, '2022-05-29', '2022-06-29', 0, 2019234563, 3)
+values (5, 3500, '2022-05-29', '2022-06-29', 0, 2019234563, 3)
+
+insert into Prestamos(idLibro, costo, fechaSolicitud, vencimiento, cancelado, idUsuario, idEmpleado)
+values (1, 3500, '2022-05-29', '2022-06-29', 1, 2019234563, 3)
+
+insert into Prestamos(idLibro, costo, fechaSolicitud, vencimiento, cancelado, idUsuario, idEmpleado)
+values (4, 3500, '2022-05-29', '2022-06-29', 1, 2016133423, 3)
+
+select * from Libros
