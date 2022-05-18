@@ -1,4 +1,4 @@
-select * from MATRICULA.matricula.[public].Sedes
+select * from MATRICULA.matricula.[public].Profesores
 
 declare @profe as varchar(50)
 set @profe = (select coordinar from TEC_Cartago.dbo.Career where idCareer=1)
