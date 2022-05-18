@@ -64,19 +64,25 @@ values (3)
 insert prestamos
 */
 
-insert into Prestamos(idLibro, costo, fechaSolicitud, vencimiento, cancelado, idUsuario, idEmpleado)
-values (1, 5000, '2022-04-10', '2022-05-10', 0, 2016133423, 1)
+insert into Prestamos(idLibro, costo, fechaSolicitud, vencimiento, cancelado, idUsuario, idEmpleado, esProfesor)
+values (1, 5000, '2022-04-10', '2022-05-10', 0, 2016133423, 1, 0)
 
-insert into Prestamos(idLibro, costo, fechaSolicitud, vencimiento, cancelado, idUsuario, idEmpleado)
-values (4, 4000, '2022-03-14', '2022-03-14', 0, 2018234443, 2)
+insert into Prestamos(idLibro, costo, fechaSolicitud, vencimiento, cancelado, idUsuario, idEmpleado, esProfesor)
+values (4, 4000, '2022-03-14', '2022-03-14', 0, 2018234443, 2,0)
 
-insert into Prestamos(idLibro, costo, fechaSolicitud, vencimiento, cancelado, idUsuario, idEmpleado)
-values (5, 3500, '2022-05-29', '2022-06-29', 0, 2019234563, 3)
+insert into Prestamos(idLibro, costo, fechaSolicitud, vencimiento, cancelado, idUsuario, idEmpleado, esProfesor)
+values (5, 3500, '2022-05-29', '2022-06-29', 0, 2019234563, 3,0)
 
-insert into Prestamos(idLibro, costo, fechaSolicitud, vencimiento, cancelado, idUsuario, idEmpleado)
-values (1, 3500, '2022-05-29', '2022-06-29', 1, 2019234563, 3)
+insert into Prestamos(idLibro, costo, fechaSolicitud, vencimiento, cancelado, idUsuario, idEmpleado, esProfesor)
+values (1, 3500, '2022-05-29', '2022-06-29', 1, 2019234563, 3,0)
 
-insert into Prestamos(idLibro, costo, fechaSolicitud, vencimiento, cancelado, idUsuario, idEmpleado)
-values (4, 3500, '2022-05-29', '2022-06-29', 1, 2016133423, 3)
+insert into Prestamos(idLibro, costo, fechaSolicitud, vencimiento, cancelado, idUsuario, idEmpleado, esProfesor)
+values (4, 3500, '2022-05-29', '2022-06-29', 1, 2016133423, 3,0)
+
+insert into Prestamos(idLibro, costo, fechaSolicitud, vencimiento, cancelado, idUsuario, idEmpleado, esProfesor)
+values (1, 6000, '2022-05-13', '2022-06-13', 0, 1, 3,1)
+
+insert into Prestamos(idLibro, costo, fechaSolicitud, vencimiento, cancelado, idUsuario, idEmpleado, esProfesor)
+values (1, 6000, '2022-05-13', '2022-06-13', 0, 22, 3,1)
 
 select * from Libros
