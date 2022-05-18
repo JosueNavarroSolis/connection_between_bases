@@ -161,3 +161,58 @@ values(25,'Alister Gabriel Navarro','1684 9865 2198 1684',2359,'07/12/2023',25)
 
 insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueDate,idUser)
 values(26,'Jeaustin Obando','1616 9898 4635 2168',8932,'09/01/2023',26)
+
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(2020201030,1,2500,0,0)
+
+insert into dbo.Loan(idLoan,idUser,activity,description) 
+values (27,2020201030,1,'Hizo el prestamo de La abuela feliza')
+
+insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueDate,idUser)
+values(27,'Nuria Balbina Manolo','5368 2859 6328 6319',7852,'01/01/2023',2020201030)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(2019234563,0,0,0,0)
+
+insert into dbo.Loan(idLoan,idUser,activity,description) 
+values (28,2019234563,1,'Hizo el prestamo de Pensando alto')
+
+insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueDate,idUser)
+values(28,'Eligia Modesto Albano','4523 3695 1235 2136',1547,'03/03/2023',2019234563)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(2016133423,1,3600,1,1500)
+
+insert into dbo.Loan(idLoan,idUser,activity,description) 
+values (29,2016133423,1,'Hizo el prestamo del tiempo es todo')
+
+insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueDate,idUser)
+values(29,'Gutierre Dulce Maricela','2539 1456 3583 3248',4698,'07/06/2023',2016133423)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(2018323123,1,1500,1,3600)
+
+insert into dbo.Loan(idLoan,idUser,activity,description) 
+values (30,2018323123,1,'Hizo el prestamo de La vida es buena')
+
+insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueDate,idUser)
+values(30,'Julieta María Carmen Matilde','7536 8456 9652 3589',4268,'02/04/2023',2018323123)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(2021142022,0,0,0,0)
+
+insert into dbo.Loan(idLoan,idUser,activity,description) 
+values (31,2021142022,1,'Hizo el prestamo de Desde lo mas alto')
+
+insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueDate,idUser)
+values(31,' Margarita Socorro Claudina','1236 4589 6547 5823',6712,'09/09/2023',2021142022)
+
+insert into dbo.Finance(idUser,delay,delayAmount,penalty,penaltyAmount)
+values(2018234443,1,3000,0,0)
+
+insert into dbo.Loan(idLoan,idUser,activity,description) 
+values (32,2018234443,1,'Hizo el prestamo de lo que no se sabe, se invente')
+
+insert into dbo.BankAccount(idBankAccount,ownerName,accountNumber,safetyPin,dueDate,idUser)
+values(32,' Américo Renzo Quirino','1248 2693 2654 2365',6712,'09/07/2023',2018234443)
